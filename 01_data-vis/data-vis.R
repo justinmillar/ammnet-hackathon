@@ -290,6 +290,11 @@ theme_classic()
 
 ggsave("malaria-prevalence-age-boxplot.png", width = 10, height = 6, dpi = 300)
 
+#' Challenge 4: Develop customized ggplot figures for the mosquitos dataset.
+#'   * Test customs themes on your previous plots, consider looking for new packages with more themes
+#'   * Apply custom color palettes to your plots, explore additional color palettes and packages
+#'   * Use facets to visualize relationships between multiple variables
+
 
 # 5. Final Challenges -----------------------------------------------------
 
