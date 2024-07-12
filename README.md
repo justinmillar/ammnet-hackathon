@@ -1,1 +1,1 @@
-# ammnet-hachathon
+# ammnet-hackathon
