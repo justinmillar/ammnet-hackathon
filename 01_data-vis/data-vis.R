@@ -5,7 +5,7 @@
 library(tidyverse)
  
 ## Download example data
- 
+
 ## Load example data
 malaria_data   <- read_csv("01_data-vis/data/mockdata_cases.csv")
 mosquito_data  <- read_csv("01_data-vis/data/mosq_mock.csv")
@@ -95,7 +95,7 @@ boxplot(malaria_data$prev ~ malaria_data$location)
 #' line will produce a blank plot because we have stated which elements from
 #' the data we want to visualize or how we want to visualize them.
 
-ggplot(data = malaria_data)
+ggplot(data = malaria_data) 
 
 ## The aesthetics
 #' Next, we need to specify the visual properties of the plot that are determined
@@ -297,6 +297,12 @@ ggsave("malaria-prevalence-age-boxplot.png", width = 10, height = 6, dpi = 300)
 
 
 # 5. Final Challenges -----------------------------------------------------
+
+#' CHALLENGE 1: Create a figure showing how the Anopheles gambiae total counts 
+#' vary each day and by location.
+#' 
+#' CHALLENGE 2: Create a figure showing the hourly Anopheles gambiae total 
+#' counts each hour.
 
 
 # 6. Conclusion & Resources ------------------------------------------------
