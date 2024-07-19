@@ -4,7 +4,12 @@
 ## Libraries
 library(tidyverse)
  
-## Download example data
+# Create a data folder
+dir.create("data")
+
+# Download example data
+download.file("https://raw.githubusercontent.com/AMMnet/AMMnet-Hackathon/main/01_data-vis/data/mockdata_cases.csv", destfile = "data/mockdata_cases.csv")
+download.file("https://raw.githubusercontent.com/AMMnet/AMMnet-Hackathon/main/01_data-vis/data/mosq_mock.csv", destfile = "data/mosq_mock.csv")
 
 ## Load example data
 malaria_data   <- read_csv("01_data-vis/data/mockdata_cases.csv")
